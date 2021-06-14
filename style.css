@@ -24,6 +24,7 @@ body {
 }
 
 main {
+  margin-top: -1rem;
   padding: 0 1rem;
 }
 
@@ -68,14 +69,29 @@ main .container {
 }
 
 .row .col-sm .hero h1 {
-  font-size: 3.3rem;
+  font-size: 2.4rem;
   color: black;
   font-weight: 600;
+  padding-bottom: 1rem;
 }
 
-.row .col-sm .btn-primary {
+.row .col-sm .btns {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.row .col-sm .btns .btn-primary {
+  margin-right: .5rem;
   width: 8rem;
   background-color: #7e6eed;
+  border-color: #7e6eed;
+}
+
+.row .col-sm .btns .btn-info {
+  width: 8rem;
+  background-color: #ffffff00;
   border-color: #7e6eed;
 }
 
