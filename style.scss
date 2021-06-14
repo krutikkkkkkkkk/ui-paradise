@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+display: grid;
+justify-self: center;
+align-self: center;
+background-color: #dee8ef;
+display: grid;
+place-items: center;
+}
+
+main {
+    padding:0 1rem;
+    
+    .container {
+        justify-content: space-between;
+    }
+}
+.row {
+    justify-content: space-evenly;
+    align-items: center;
+    .col-sm{
+        .hero {
+            width:auto;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            padding-top: 2rem;
+            padding-bottom: 2rem;
+            flex-direction: column;
+            line-height: .2em;
+
+            h3{
+                font-size: 1rem;
+                font-weight: 600;
+                margin-top: 1.5rem;
+                color: rgb(95, 91, 91);
+            }
+
+            h1 {
+                font-size: 3.3rem;
+                color: black;
+                font-weight: 600;
+            }
+
+        }
+        .btn-primary{
+            width: 8rem;
+            background-color: #7e6eed;
+            border-color: #7e6eed;
+        } 
+    }
+
+}
+.bg-primary {
+    background-color: #7e6eed!important;
+}
+nav {
+    width: 100%;
+}
+
+.collapse {
+    padding-right: 4rem;
+    justify-content: flex-end;
+}
+.navbar-light .navbar-brand{
+    color: white;
+    font-weight: 500;
+    padding-left: 1rem;
+
+    &:hover{
+        color: white;
+    }
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: rgba(255, 255, 255, 0.9);
+    text-decoration: underline;
+    text-decoration-thickness: .3rem;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+
+    &:hover{
+        color:white;
+    }
+}
+
+.uifun {
+    padding: .6rem;
+    width: 85%;
+
+}
