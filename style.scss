@@ -75,6 +75,7 @@ main {
 .bg-primary {
     background-color: #7e6eed!important;
 }
+
 nav {
     width: 100%;
 }
@@ -111,8 +112,60 @@ nav {
     width: 90%;
 
 }
+
+.features {
+    width: 100%;
+    padding: 3rem 1rem;
+    background-color: #fff;
+}
+
+.list {
+    justify-content: space-between;
+    ul {
+        margin-left: 2rem;
+        border:none;
+        a{
+            text-decoration: none;
+        }
+        li{  
+           border: none;
+            &:before{
+                content: '';
+                left: -2em;
+                position: absolute;
+                width: 20px;
+                height: 20px;
+                background-image: url('../img/check.svg');
+                background-size: contain;
+                margin-right: .5em;
+            }
+        }
+    }
+}
+.illustration {
+    width: 100%;
+    margin: auto;;
+    img {
+        padding: 2rem;
+        padding-left: 3rem;
+        height: 15rem;
+        width: auto;
+    }
+}
 footer {
     background-color: rgb(200, 204, 221);
     width: 100%;
     padding: .6rem;
+    position: relative;
+    bottom: 0;
+}
+
+
+.card-body {
+    justify-content: space-between;
+    flex: 1 1 auto;
+    padding: 1rem 1rem;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
 }
