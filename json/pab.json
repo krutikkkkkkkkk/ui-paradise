@@ -1,77 +1,71 @@
-[
-    {
-        "name": "Free Illustartions",
-        "description": "Direct access to all website which provide Free Illustartions",
-        "url" : "https://freeillustrations.xyz/"
+[   {
+        "name": "Unsplash",
+        "description": "The internet’s source of freely-usable images.",
+        "url" : "https://unsplash.com/"
     },
     {
-        "name": "Icons8",
-        "description": "Free vector illustration to enhance your project.",
-        "url" : "https://icons8.com/illustrations"
-    },
-    {
-        "name": "Undraw",
-        "description": "Browse to find the images that fit your needs and click to download.",
-        "url" : "https://undraw.co/illustrations"
+        "name": "Free Images",
+        "description": "Browse royalty-free photos by subject, photographer, or even camera.",
+        "url" : "https://www.freeimages.com/"
     },
     {
         "name": "Freepik",
-        "description": "+703,000 Free Vectors. See only Photos or PSD",
-        "url" : "https://www.freepik.com/vectors/illustrations"
+        "description": "Free photos for personal and commercial use. Download in .JPG format.",
+        "url" : "https://www.freepik.com/popular-photos"
     },
     {
-        "name": "Isometric",
-        "description": "SVG isometric illustrations, that you can use in your website, app or in any project",
-        "url" : "https://isometric.online/"
+        "name": "Pexels",
+        "description": "Free stock photos and videos you can use everywhere.",
+        "url" : "https://www.pexels.com/"
     },
     {
-        "name": "HandZ",
-        "description": "A 3D illustration library.",
-        "url" : "https://www.handz.design/"
+        "name": "Pixa Buy",
+        "description": "Stunning free images & royalty free stock.",
+        "url" : "https://pixabay.com/"
     },
     {
-        "name": "Nice Illustrations",
-        "description": "Download hundreds of illustrations for free to use in your commercial and personal projects",
-        "url" : "https://niceillustrations.com/free-illustrations/"
+        "name": "Stock Snap",
+        "description": "Best Free Stock Pictures.",
+        "url" : "https://stocksnap.io/"
     },
     {
-        "name": "humaaans",
-        "description": "Mix-&-match illustrations of people with a design library",
-        "url" : "https://humaaans.com/"
+        "name": "Every Pixel",
+        "description": "A single tool to search through millions of photos from all over the internet.",
+        "url" : "https://www.everypixel.com/free/"
     },
     {
-        "name": "Design AI",
-        "description": "Free color-editable illustrations to elevate your visual communications",
-        "url" : "https://designs.ai/graphicmaker"
+        "name": "ShutterStocks",
+        "description": "Explore millions of royalty free images.",
+        "url" : "https://www.shutterstock.com/explore/royalty-free-images"
     },
     {
-        "name": "Blush",
-        "description": "Create, mix, and customize illustrations made by artists around the world. ",
-        "url" : "https://blush.design/"
+        "name": "Life Of Pix",
+        "description": "Free high resolution photography.",
+        "url" : "https://www.lifeofpix.com/"
     },
     {
-        "name": "3D Avatar",
-        "description": "Toy Faces is an extremely diverse library of the coolest 3D avatars.",
-        "url" : "https://gumroad.com/l/eWyNe/"
+        "name": "Iso Republic",
+        "description": "Thousands of Free High-Resolution Stock CC0 Images and Videos.",
+        "url" : "https://isorepublic.com/"
     },
     {
-        "name": "Sketchvalley",
-        "description": "Hand-drawn free vector illustration resources for your projects.",
-        "url" : "https://sketchvalley.com/"
+        "name": "Picography",
+        "description": "Gorgeous, High-Resolution, Free Photos.",
+        "url" : "https://picography.co/"
     },
     {
-        "name": "Scale illustrations",
-        "description": "One new high-quality, open-source illustration each day. ",
-        "url" : "https://2.flexiple.com/scale/all-illustrations"
+        "name": "Wunderstock",
+        "description": "Stunningly amazing free photos.",
+        "url" : "https://wunderstock.com/"
     },
     {
-        "name": "Draw Kit",
-        "description": "Hand-drawn vector illustration and icon resources, perfect for your next project. ",
-        "url" : "https://www.drawkit.io/"
+        "name": "Startup Stock",
+        "description": "The images are generic, stylized, but relevant for business and tech. ",
+        "url" : "https://startupstockphotos.com/"
     },
     {
-        "name": "Many Pixels",
-        "description": "Discover new illustrations every week.  ",
-        "url" : "https://www.manypixels.co/gallery"
+        "name": "Skitterphoto",
+        "description": "a place to find, show and share public domain photos. ",
+        "url" : "https://skitterphoto.com//"
     }
 ]
