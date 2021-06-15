@@ -1,52 +1,62 @@
 [
     {
+        "name": "Canva",
+        "description": "The easiest place to get colors from your photos.",
+        "url" : "https://www.canva.com/colors/color-palettes/"
+    },
+    {
+        "name": "Adobe",
+        "description": "Pantone Color Library",
+        "url" : "https://color.adobe.com/explore"
+    },
+    {
+        "name": "Color Palettes",
+        "description": "Color Palettes is an open collection of beautiful color palettes.",
+        "url" : "https://colorpalettes.com/"
+    },
+    {
+        "name": "Design AI",
+        "description": "You can create a million A.I generated color palettes to inspire your ideas.",
+        "url" : "https://designs.ai/colors"
+    },
+    {
+        "name": "Muzli Colors",
+        "description": "Create Beautiful Color Schemes that works.",
+        "url" : "https://colors.muz.li/"
+    },
+    {
         "name": "Coolors",
         "description": "Generate or browse beautiful color combinations for your designs.",
         "url" : "https://coolors.co/"
     },
     {
-        "name": "Google Fonts",
-        "description": "Material Icons are available in five styles and a range of downloadable sizes.",
-        "url" : "https://fonts.google.com/icons?selected=Material+Icons"
+        "name": "Color Hunt",
+        "description": "Color Palettes for Designers and Artists.",
+        "url" : "https://colorhunt.co/"
     },
     {
-        "name": "Bootstrap Icons",
-        "description": "High quality open source icon library.Include them anyway SVG sprite, or web fonts.",
-        "url" : "https://icons.getbootstrap.com/"
+        "name": "Color Space",
+        "description": "Never waste Hours on finding the perfect Color Palette again!",
+        "url" : "https://mycolor.space/"
     },
     {
-        "name": "Font Awesome",
-        "description": "Get vector icons on your website with Font Awesome, the web's most popular icon set.",
-        "url" : "https://fontawesome.com//"
+        "name": "Color Mind",
+        "description": "Colormind is a color scheme generator that uses deep learning. ",
+        "url" : "http://colormind.io/"
     },
     {
-        "name": "Flaticon",
-        "description": "The database of free icons available in PNG, SVG, EPS, PSD and BASE 64 formats.",
-        "url" : "https://flaticon.com/"
+        "name": "Material design",
+        "description": "Genrate color palettes with different hues",
+        "url" : "https://www.materialpalette.com/"
     },
     {
-        "name": "Iconfinder",
-        "description": "Iconfinder has more than 3 million icons altogether, in SVG format nonetheless.",
-        "url" : "https://www.iconfinder.com/free_icons"
+        "name": "Color Designer",
+        "description": "The main purpose of this tool is to help with building a color palette and generate tints ",
+        "url" : "https://colordesigner.io/"
     },
     {
-        "name": "Freepik",
-        "description": "Vector icons for personal and commercial use. Download in .PNG, .EPS and .SVG format.",
-        "url" : "https://www.freepik.com/popular-icons"
-    },
-    {
-        "name": "Pngtree",
-        "description": "You are able to download it as a PNG or SVG file with a maximum dimension size of 512×512.",
-        "url" : "https://pngtree.com/so/icon"
-    },
-    {
-        "name": "Uxwing",
-        "description": "All icons are well compressed almost 60% without compromise SVG and PNG icon quality.",
-        "url" : "https://uxwing.com/"
-    },
-    {
-        "name": "Streamline",
-        "description": "Illustrations and emoji for all your projects. Customize them to your brand in seconds.",
-        "url" : "https://streamlinehq.com/"
+        "name": "Flat UI Color",
+        "description": "Preset of country colors",
+        "url" : "https://flatuicolors.com/"
     }
 ]

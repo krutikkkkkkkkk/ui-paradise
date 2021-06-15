@@ -195,6 +195,15 @@ footer {
   bottom: 0;
 }
 
+.navbar-light .navbar-toggler {
+  color: #fff;
+  border-color: #fff;
+}
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url("img/menu.svg");
+}
+
 .card-body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
@@ -211,5 +220,15 @@ footer {
       -ms-flex-direction: column;
           flex-direction: column;
   padding: 2rem;
+}
+
+.features .container .row .col-sm {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 1rem;
 }
 /*# sourceMappingURL=style.css.map */

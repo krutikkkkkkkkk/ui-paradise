@@ -159,7 +159,13 @@ footer {
     position: relative;
     bottom: 0;
 }
-
+.navbar-light .navbar-toggler {
+    color: #fff;
+    border-color: #fff;
+}
+.navbar-light .navbar-toggler-icon {
+    background-image: url("img/menu.svg")
+}
 
 .card-body {
     justify-content: space-between;
@@ -168,4 +174,17 @@ footer {
     display: flex;
     flex-direction: column;
     padding: 2rem;
+}
+
+.features {
+    
+    .container {
+        .row {
+            .col-sm {
+                display: flex;
+                justify-content: center;
+                margin: 1rem;
+            }
+        }
+    }
 }
