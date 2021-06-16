@@ -20,6 +20,16 @@
         "url" : "https://fontawesome.com//"
     },
     {
+        "name": "Octicons",
+        "description": "Your project. GitHub's icons..",
+        "url" : "https://primer.style/octicons/"
+    },
+    {
+        "name": "Feather Icon",
+        "description": "Simply beautiful open source icons.",
+        "url" : "https://feathericons.com/"
+    },
+    {
         "name": "Flaticon",
         "description": "The database of free icons available in PNG, SVG, EPS, PSD and BASE 64 formats.",
         "url" : "https://flaticon.com/"

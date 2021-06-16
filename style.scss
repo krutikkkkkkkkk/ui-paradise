@@ -117,7 +117,6 @@ nav {
     width: 100%;
     padding: 3rem 1rem;
     background-color: #fff;
-}
 
 .list {
     justify-content: space-between;
@@ -141,6 +140,7 @@ nav {
             }
         }
     }
+}
 }
 .illustration {
     width: 100%;
@@ -184,6 +184,38 @@ footer {
                 display: flex;
                 justify-content: center;
                 margin: 1rem;
+            }
+        }
+    }
+}
+
+.tools {
+    width:100%;
+    margin: 0;
+    background-color: white;
+}
+
+.feather {
+    cursor: url('img/feather-pen.png'), auto;
+}
+.support {
+    
+    .container {
+        padding: 3rem;
+        .row {
+            .col-sm {
+                width: 100%;
+                margin: 1rem 2em;
+
+                ul {
+                    width: 100%;
+
+                    li {
+                        list-style: none;
+                        font-weight: bold;
+                        padding-bottom: 1rem;
+                    }
+                }
             }
         }
     }

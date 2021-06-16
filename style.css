@@ -145,26 +145,26 @@ nav {
   background-color: #fff;
 }
 
-.list {
+.features .list {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
 
-.list ul {
+.features .list ul {
   margin-left: 2rem;
   border: none;
 }
 
-.list ul a {
+.features .list ul a {
   text-decoration: none;
 }
 
-.list ul li {
+.features .list ul li {
   border: none;
 }
 
-.list ul li:before {
+.features .list ul li:before {
   content: '';
   left: -2em;
   position: absolute;
@@ -230,5 +230,34 @@ footer {
       -ms-flex-pack: center;
           justify-content: center;
   margin: 1rem;
+}
+
+.tools {
+  width: 100%;
+  margin: 0;
+  background-color: white;
+}
+
+.feather {
+  cursor: url("img/feather-pen.png"), auto;
+}
+
+.support .container {
+  padding: 3rem;
+}
+
+.support .container .row .col-sm {
+  width: 100%;
+  margin: 1rem 2em;
+}
+
+.support .container .row .col-sm ul {
+  width: 100%;
+}
+
+.support .container .row .col-sm ul li {
+  list-style: none;
+  font-weight: bold;
+  padding-bottom: 1rem;
 }
 /*# sourceMappingURL=style.css.map */
