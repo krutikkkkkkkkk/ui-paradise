@@ -245,7 +245,8 @@ footer {
             .feature {
                 ul {
                     li {
-                      background-color: var(--background-light);   
+                      background-color: var(--background-light); 
+                      list-style: none;  
                       &:before{   
                         content: '';
                         left: -2em;
