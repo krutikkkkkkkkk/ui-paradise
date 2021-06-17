@@ -327,4 +327,8 @@ footer {
   background-size: contain;
   margin-right: .5em;
 }
+
+.supportList li {
+  list-style: none;
+}
 /*# sourceMappingURL=style.css.map */
