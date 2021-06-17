@@ -330,5 +330,22 @@ footer {
 
 .supportList li {
   list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-bottom: 1rem;
+}
+
+ol, ul {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.py-5 {
+  padding-top: 1rem !important;
+  padding-bottom: 3rem !important;
 }
 /*# sourceMappingURL=style.css.map */
