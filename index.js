@@ -11,7 +11,7 @@ function sendMessage(){
     let message = document.getElementById('message').value;
 
     let chat_id = "1171876903"
-    let apiToken= "1895204987:AAGP6W_mnk0Jz5uFEoLMVo2Az2aGsVVvA-Y";
+    let apiToken= "";
     let time = `${d.getHours()}:${d.getMinutes()} IST`
 
     let text = `Name : ${name}
@@ -34,3 +34,7 @@ function sendMessage(){
             document.getElementById('modal-footer').innerHTML ="<button type='button' class='btn btn-secondary' data-bs-dismiss='modal'>Close</button>"
     })
 }
+
+let url = document.URL;
+
+console.log(url)
