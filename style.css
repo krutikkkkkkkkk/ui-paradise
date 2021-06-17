@@ -7,6 +7,13 @@
   font-family: 'Poppins', sans-serif;
 }
 
+:root {
+  --background-light: #dee8ef;
+  --primary-color: #7e6eed;
+  --background-dark:  #2a2b2c;
+  --white:rgb(255, 255, 255);
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -16,9 +23,10 @@ body {
   display: grid;
   -ms-grid-column-align: center;
       justify-self: center;
+  color: #000;
   -ms-grid-row-align: center;
       align-self: center;
-  background-color: #dee8ef;
+  background-color: var(--background-light);
   display: grid;
   place-items: center;
 }
@@ -70,7 +78,6 @@ main .container {
 
 .row .col-sm .hero h1 {
   font-size: 2.4rem;
-  color: black;
   font-weight: 600;
   padding-bottom: 1rem;
 }
@@ -85,18 +92,23 @@ main .container {
 .row .col-sm .btns .btn-primary {
   margin-right: .5rem;
   width: 8rem;
-  background-color: #7e6eed;
-  border-color: #7e6eed;
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
 }
 
 .row .col-sm .btns .btn-info {
   width: 8rem;
   background-color: #ffffff00;
-  border-color: #7e6eed;
+  border-color: var(--primary-color);
 }
 
 .bg-primary {
-  background-color: #7e6eed !important;
+  background-color: var(--primary-color) !important;
+  color: var(--white);
+}
+
+.bg-primary:hover {
+  color: var(--white);
 }
 
 nav {
@@ -111,13 +123,13 @@ nav {
 }
 
 .navbar-light .navbar-brand {
-  color: white;
+  color: var(--white);
   font-weight: 500;
   padding-left: 1rem;
 }
 
 .navbar-light .navbar-brand:hover {
-  color: white;
+  color: var(--white);
 }
 
 .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show > .nav-link {
@@ -127,11 +139,11 @@ nav {
 }
 
 .navbar-light .navbar-nav .nav-link {
-  color: white;
+  color: var(--white);
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
-  color: white;
+  color: var(--white);
 }
 
 .uifun {
@@ -142,7 +154,7 @@ nav {
 .features {
   width: 100%;
   padding: 3rem 1rem;
-  background-color: #fff;
+  background-color: var(--white);
 }
 
 .features .list {
@@ -196,8 +208,8 @@ footer {
 }
 
 .navbar-light .navbar-toggler {
-  color: #fff;
-  border-color: #fff;
+  color: var(--white);
+  border-color: var(--white);
 }
 
 .navbar-light .navbar-toggler-icon {
@@ -235,7 +247,7 @@ footer {
 .tools {
   width: 100%;
   margin: 0;
-  background-color: white;
+  background-color: var(--white);
 }
 
 .feather {
@@ -259,5 +271,63 @@ footer {
   list-style: none;
   font-weight: bold;
   padding-bottom: 1rem;
+}
+
+.lnsrc {
+  background-color: var(--background-light);
+  width: 100%;
+  padding: 2rem 3rem;
+  padding-top: 0;
+}
+
+.lnsrc .container .row .feature ul li {
+  background-color: var(--background-light);
+}
+
+.lnsrc .container .row .feature ul li:before {
+  content: '';
+  left: -2em;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-image: url("../img/check.svg");
+  background-size: contain;
+  margin-right: .5em;
+}
+
+.tools {
+  background-color: var(--white);
+}
+
+.tools .container .row .col h4 {
+  color: #676869;
+}
+
+.useweb {
+  background-color: var(--background-light);
+  width: 100%;
+  padding: 2rem 3rem;
+  padding-top: 0;
+}
+
+.useweb .container .row .feature ul li {
+  background-color: var(--background-light);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.useweb .container .row .feature ul li:before {
+  content: '';
+  left: -2em;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-image: url("../img/check.svg");
+  background-size: contain;
+  margin-right: .5em;
 }
 /*# sourceMappingURL=style.css.map */

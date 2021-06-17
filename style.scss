@@ -5,6 +5,15 @@
     padding: 0;
     font-family: 'Poppins', sans-serif;
 }
+
+:root{
+    --background-light: #dee8ef;
+    --primary-color: #7e6eed;
+    --background-dark:  #2a2b2c;
+    --white:rgb(255, 255, 255);
+
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -12,8 +21,9 @@ html {
 body {
 display: grid;
 justify-self: center;
+color: #000;
 align-self: center;
-background-color: #dee8ef;
+background-color: var(--background-light);
 display: grid;
 place-items: center;
 }
@@ -44,12 +54,11 @@ main {
                 font-size: 1rem;
                 font-weight: 600;
                 margin-top: 1.5rem;
-                color: rgb(95, 91, 91);
+                color: #5f5b5b;
             }
 
             h1 {
                 font-size: 2.4rem;
-                color: black;
                 font-weight: 600;
                 padding-bottom: 1rem;
             }
@@ -60,20 +69,25 @@ main {
         .btn-primary{
             margin-right: .5rem;
             width: 8rem;
-            background-color: #7e6eed;
-            border-color: #7e6eed;
+            background-color: var(--primary-color);
+            border-color: var(--primary-color);
         } 
         .btn-info {
             width: 8rem;
             background-color: #ffffff00;
-            border-color: #7e6eed;
+            border-color: var(--primary-color);
         }
     }
     }
 
 }
 .bg-primary {
-    background-color: #7e6eed!important;
+    background-color: var(--primary-color)!important;
+    color: var(--white);
+
+    &:hover {
+        color: var(--white);
+    }
 }
 
 nav {
@@ -85,12 +99,12 @@ nav {
     justify-content: flex-end;
 }
 .navbar-light .navbar-brand{
-    color: white;
+    color: var(--white);
     font-weight: 500;
     padding-left: 1rem;
 
     &:hover{
-        color: white;
+        color: var(--white);
     }
 }
 .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
@@ -100,23 +114,23 @@ nav {
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: white;
+    color: var(--white);
 
     &:hover{
-        color:white;
+        color:var(--white);
     }
 }
 
 .uifun {
     padding: .6rem;
     width: 90%;
-
 }
 
 .features {
     width: 100%;
     padding: 3rem 1rem;
-    background-color: #fff;
+    background-color:var(--white);
+    
 
 .list {
     justify-content: space-between;
@@ -153,15 +167,15 @@ nav {
     }
 }
 footer {
-    background-color: rgb(200, 204, 221);
+    background-color: #c8ccdd;
     width: 100%;
     padding: .6rem;
     position: relative;
     bottom: 0;
 }
 .navbar-light .navbar-toggler {
-    color: #fff;
-    border-color: #fff;
+    color: var(--white);
+    border-color: var(--white);
 }
 .navbar-light .navbar-toggler-icon {
     background-image: url("img/menu.svg")
@@ -192,7 +206,7 @@ footer {
 .tools {
     width:100%;
     margin: 0;
-    background-color: white;
+    background-color: var(--white);
 }
 
 .feather {
@@ -221,3 +235,81 @@ footer {
     }
 }
 
+.lnsrc {
+    background-color: var(--background-light);
+    width: 100%;
+    padding: 2rem 3rem;
+    padding-top: 0;
+
+    .container {
+        .row {
+            .feature {
+                ul {
+                    li {
+                      background-color: var(--background-light);   
+                      &:before{   
+                        content: '';
+                        left: -2em;
+                        position: absolute;
+                        width: 20px;
+                        height: 20px;
+                        background-image: url('../img/check.svg');
+                        background-size: contain;
+                        margin-right: .5em;
+                      }
+                    }
+                   
+                }
+            }
+        }
+        
+    }
+}
+
+.tools{
+    background-color:var(--white);
+
+    .container {
+        .row{
+            .col {
+                h4 {
+                    color: #676869;
+                }
+            }
+        }
+    }
+}
+
+.useweb {
+    background-color: var(--background-light);
+    width: 100%;
+    padding: 2rem 3rem;
+    padding-top: 0;
+
+    .container {
+        .row {
+            .feature {
+                ul {
+                    li {
+                      background-color: var(--background-light);   
+                      display: flex;
+                      justify-content: space-between;
+
+                      &:before{   
+                        content: '';
+                        left: -2em;
+                        position: absolute;
+                        width: 20px;
+                        height: 20px;
+                        background-image: url('../img/check.svg');
+                        background-size: contain;
+                        margin-right: .5em;
+                      }
+                    }
+                   
+                }
+            }
+        }
+        
+    }
+}
