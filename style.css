@@ -222,6 +222,10 @@ footer {
   bottom: 0;
 }
 
+.text-muted {
+  color: #3b434a;
+}
+
 .navbar-light .navbar-toggler {
   color: var(--white);
   border-color: var(--white);
