@@ -4,55 +4,55 @@ window.onload = function(){
     document.getElementById('year').innerHTML = year;
 }
 
-function submitAnotherResponse(){
-    document.getElementById('modal-body').innerHTML = `<label for="name">Name</label>
-    <input type="text" id="name" class="form-control" >
-    <label for="Email">Email</label>
-    <input type="email" id="email" class="form-control">
-    <label for="message">Message</label>
-    <textarea class="form-control" name="message" id="message" cols="10" rows="8"></textarea>`
+// function submitAnotherResponse(){
+//     document.getElementById('modal-body').innerHTML = `<label for="name">Name</label>
+//     <input type="text" id="name" class="form-control" >
+//     <label for="Email">Email</label>
+//     <input type="email" id="email" class="form-control">
+//     <label for="message">Message</label>
+//     <textarea class="form-control" name="message" id="message" cols="10" rows="8"></textarea>`
 
-    document.getElementById('modal-footer').innerHTML = `<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-    <button onclick="sendMessage()" type="button" class="btn btn-primary" style="background-color: #7e6eed; border-color: #7e6eed;">Send Message</button>
-  `
-}
-
-
-let url = document.URL;
-
-console.log(url)
+//     document.getElementById('modal-footer').innerHTML = `<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+//     <button onclick="sendMessage()" type="button" class="btn btn-primary" style="background-color: #7e6eed; border-color: #7e6eed;">Send Message</button>
+//   `
+// }
 
 
+// let url = document.URL;
 
-function sendMessage(){
-    let name = document.getElementById('name').value;
-    let email = document.getElementById('email').value;
-    let message = document.getElementById('message').value;
+// console.log(url)
 
-    let chat_id = "1171876903"
-    let apiToken= "1895204987:AAGP6W_mnk0Jz5uFEoLMVo2Az2aGsVVvA-Y";
-    let time = `${d.getHours()}:${d.getMinutes()} IST`
 
-    let text = `Name : ${name}
-    \nEmail: ${email}
-    \nMessage: ${message}
-    \nTime: ${time}
-    `;
 
-    let url = `https://api.telegram.org/bot${apiToken}/sendMessage?chat_id=${chat_id}&text=${text}&parse_mode=Markdown`
+// function sendMessage(){
+//     let name = document.getElementById('name').value;
+//     let email = document.getElementById('email').value;
+//     let message = document.getElementById('message').value;
 
-    fetch(url)
-    .then(
-        () => {
-            document.getElementById('modal-body').innerHTML = "<h4>Your response was submitted!</h4>"
-            document.getElementById('modal-footer').innerHTML =" <button onclick='submitAnotherResponse()' type='button' class='btn btn-primary' style='background-color: #7e6eed; border-color: #7e6eed;'>Submit Another Response</button> <button type='button' class='btn btn-secondary' data-bs-dismiss='modal'>Close</button>"
-        }
-    )
-    .catch(err => {
-            document.getElementById('modal-body').innerHTML = err;
-            document.getElementById('modal-footer').innerHTML ="<button type='button' class='btn btn-secondary' data-bs-dismiss='modal'>Close</button>"
-    })
-}
+//     let chat_id = "1171876903"
+//     let apiToken= "1895204987:AAGP6W_mnk0Jz5uFEoLMVo2Az2aGsVVvA-Y";
+//     let time = `${d.getHours()}:${d.getMinutes()} IST`
+
+//     let text = `Name : ${name}
+//     \nEmail: ${email}
+//     \nMessage: ${message}
+//     \nTime: ${time}
+//     `;
+
+//     let url = `https://api.telegram.org/bot${apiToken}/sendMessage?chat_id=${chat_id}&text=${text}&parse_mode=Markdown`
+
+//     fetch(url)
+//     .then(
+//         () => {
+//             document.getElementById('modal-body').innerHTML = "<h4>Your response was submitted!</h4>"
+//             document.getElementById('modal-footer').innerHTML =" <button onclick='submitAnotherResponse()' type='button' class='btn btn-primary' style='background-color: #7e6eed; border-color: #7e6eed;'>Submit Another Response</button> <button type='button' class='btn btn-secondary' data-bs-dismiss='modal'>Close</button>"
+//         }
+//     )
+//     .catch(err => {
+//             document.getElementById('modal-body').innerHTML = err;
+//             document.getElementById('modal-footer').innerHTML ="<button type='button' class='btn btn-secondary' data-bs-dismiss='modal'>Close</button>"
+//     })
+// }
 
 
 let title = document.getElementById('title');
